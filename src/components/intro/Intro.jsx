@@ -20,7 +20,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ year</small>
+              <small>22+ months</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -28,8 +28,7 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p>I'm currently in my pre-final year at Jaypee Institute of Information Technology, focusing on server-side development with a strong interest in Django and a good understanding of DevOps practices. My journey in technology has been marked by projects aimed at developing scalable digital platforms and improving networking solutions for areas with high traffic.
-<br></br>I've also begun exploring the field of Natural Language Processing (NLP) research, aiming to blend my technical skills with cutting-edge research. With a passion for backend architecture and a growing interest in NLP, I'm actively seeking research internships and software development roles that offer the chance to innovate and excel in the tech world. in NLP, I'm actively seeking challenging opportunities in research internships and software development roles to further innovate and excel in the tech sphere.</p>
+          <p>Enthusiastic about server-side development and versed in Django and DevOps, I am a tech enthusiast with experience in crafting scalable platforms. My academic journey at Jaypee Institute of Information Technology is now converging with my interest in Natural Language Processing (NLP), where I seek to weave my technical prowess with emerging research. In pursuit of excellence, I am on the lookout for dynamic roles in research and software development to innovate and make a tangible impact in the tech landscape.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
