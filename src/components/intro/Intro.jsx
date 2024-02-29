@@ -28,7 +28,7 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p>Enthusiastic about server-side development and versed in Django and DevOps, I am a tech enthusiast with experience in crafting scalable platforms. My academic journey at Jaypee Institute of Information Technology is now converging with my interest in Natural Language Processing (NLP), where I seek to weave my technical prowess with emerging research. In pursuit of excellence, I am on the lookout for dynamic roles in research and software development to innovate and make a tangible impact in the tech landscape.</p>
+          <p>Enthusiastic about server-side development and versed in Django and DevOps, I am a tech enthusiast with experience in crafting multiple scalable platforms and an A+ taste in music. My academic journey at Jaypee Institute of Information Technology is now converging with my interest in Natural Language Processing (NLP), where I seek to weave my technical prowess with emerging research. In pursuit of excellence, I am on the lookout for dynamic roles in research and software development to innovate and make a tangible impact in the tech landscape.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
