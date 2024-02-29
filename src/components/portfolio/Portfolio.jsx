@@ -1,10 +1,9 @@
 import React from 'react';
-import IMG1 from '../../assets/alc.png';
-import IMG2 from '../../assets/todo.png';
-import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+import IMG1 from '../../assets/eeg.jpeg';
+import IMG2 from '../../assets/eeg.jpeg';
+
+import IMG4 from '../../assets/eeg.jpeg';
+
 
 import './portfolio.css';
 
@@ -12,63 +11,33 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Adventist Learning Center',
+      title: 'EEG Based Student Emotion Detection',
       img: IMG1,
       description:
-        'Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.',
-      technologies: 'Ruby on Rails | SCSS',
-      link: 'https://adventistlearningcenter-257375ab1970.herokuapp.com/',
-      github: 'https://github.com/Meri-MG/school',
+        'EEG based neurofeedback to monitor your brain waves and based on sensor data monitor your affective states including stress, focus, and mood levels.',
+      technologies: 'EEG | ML | Streamlit',
+      github: 'https://github.com/satwik2711/EEGEmotionDetection',
     },
     {
       id: 2,
-      title: 'FakeStore',
+      title: 'Greenovate',
       img: IMG4,
       description:
-        'FakeStore app that provides information about available products and their details',
-      technologies: 'React | Redux',
+        'Building a Comprehensive sustainability software for organisations, allowing them to Measure, Manage and Report their emissions.',
+      technologies: 'Nextjs | Django | Node',
       link: 'https://fakestore-metrics.netlify.app/',
       github: 'https://github.com/Meri-MG/Fakestore---react',
     },
     {
       id: 3,
-      title: 'To-Do App',
+      title: 'Environ.Earth',
       img: IMG2,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'JavaScript | Webpack',
+      description: 'Created an algorithm to calculate the ”green-index” of organizations and countries, monitoring their progress and development on their approach towards the goal of Net Zero.',
+      technologies: 'JavaScript | Node',
       link: 'https://meri-mg.github.io/To-Do-List/dist/',
       github: 'https://github.com/Meri-MG/To-Do-List',
     },
-    {
-      id: 4,
-      title: 'Shelter',
-      img: IMG3,
-      description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
-    },
-    {
-      id: 5,
-      title: 'World News',
-      img: IMG5,
-      description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
-    },
-    {
-      id: 6,
-      title: 'Math Resource',
-      img: IMG6,
-      description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
-    },
+    
   ];
 
   return (
@@ -96,14 +65,14 @@ const Portfolio = () => {
               >
                 GitHub
               </a>
-              <a
+              {/* <a
                 href={pro.link}
                 target="_blank"
                 className="btn btn-primary"
                 rel="noreferrer"
               >
                 Visit Website
-              </a>
+              </a> */}
             </div>
           </article>
         ))}
