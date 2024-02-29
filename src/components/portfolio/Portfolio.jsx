@@ -1,8 +1,8 @@
 import React from 'react';
 import IMG1 from '../../assets/eeg.jpeg';
-import IMG2 from '../../assets/eeg.jpeg';
+import IMG2 from '../../assets/env.jpeg';
 
-import IMG4 from '../../assets/eeg.jpeg';
+import IMG4 from '../../assets/greenovate.jpeg';
 
 
 import './portfolio.css';
@@ -25,8 +25,7 @@ const Portfolio = () => {
       description:
         'Building a Comprehensive sustainability software for organisations, allowing them to Measure, Manage and Report their emissions.',
       technologies: 'Nextjs | Django | Node',
-      link: 'https://fakestore-metrics.netlify.app/',
-      github: 'https://github.com/Meri-MG/Fakestore---react',
+      github: 'https://github.com/satwik2711/Greenovate',
     },
     {
       id: 3,
@@ -34,8 +33,7 @@ const Portfolio = () => {
       img: IMG2,
       description: 'Created an algorithm to calculate the ”green-index” of organizations and countries, monitoring their progress and development on their approach towards the goal of Net Zero.',
       technologies: 'JavaScript | Node',
-      link: 'https://meri-mg.github.io/To-Do-List/dist/',
-      github: 'https://github.com/Meri-MG/To-Do-List',
+      github: 'https://github.com/satwik2711/Environ.earth',
     },
     
   ];
